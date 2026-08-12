@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Documentos privados — mantidos exclusivamente em CabPiz/diario
+business_plan.md
+BUSINESS_PLAN.md
+1.diario_de_aprendizado.md
