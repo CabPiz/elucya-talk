@@ -1,8 +1,8 @@
-# Violência Verbal
+# Elucya Talk
 
 > Análise comportamental de conversas por inteligência artificial.
 
-**Violência Verbal** é uma aplicação web que permite fazer upload de áudios de conversas para identificar conflitos, ameaças e padrões de comportamento, gerando um relatório comportamental por participante.
+**Elucya Talk** é uma aplicação web que permite fazer upload de áudios de conversas para identificar conflitos, ameaças e padrões de comportamento, gerando um relatório comportamental por participante.
 
 ---
 

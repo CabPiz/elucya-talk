@@ -9,9 +9,9 @@ Atualizar o nome do projeto em todos os pontos de configuração do VSCode
 e GitHub.
 
 ## Tarefas
-- [ ] Renomear o repositório no GitHub de `violencia-verbal` para `elucya-talk`
-- [ ] Atualizar o remote local: `git remote set-url origin https://github.com/CabPiz/elucya-talk`
-- [ ] Atualizar o campo `name` no `package.json`
-- [ ] Atualizar título e descrição do repositório no GitHub
-- [ ] Renomear o projeto Kanban de "Violência Verbal" para "Elucya Talk"
-- [ ] Atualizar o nome do projeto no Kanban (number 2, owner CabPiz)
+- [x] Renomear o repositório no GitHub de `violencia-verbal` para `elucya-talk`
+- [x] Atualizar o remote local: `git remote set-url origin https://github.com/CabPiz/elucya-talk`
+- [x] Atualizar o campo `name` no `package.json`
+- [x] Atualizar título e descrição do repositório no GitHub
+- [x] Renomear o projeto Kanban de "Violência Verbal" para "Elucya Talk"
+- [x] Atualizar o nome do projeto no Kanban (number 2, owner CabPiz)
