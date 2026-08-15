@@ -22,16 +22,6 @@ Diferente de ferramentas que apenas detectam toxicidade, a Elucya Talk vai além
 
 ---
 
-## Público-alvo
-
-| Segmento | Persona |
-|---|---|
-| B2C | Indivíduos em conflito relacional que buscam visão neutra |
-| B2B | Psicólogos, mediadores e profissionais de RH |
-| Marketplace (V2) | Profissionais credenciados que validam laudos com responsabilidade |
-
----
-
 ## Status
 
 | Milestone | Descrição | Status |
