@@ -1,33 +1,65 @@
 # Elucya Talk
 
-> Análise comportamental de conversas por inteligência artificial.
+> Análise comportamental de linguagem por inteligência artificial.
 
-**Elucya Talk** é uma aplicação web que permite fazer upload de áudios de conversas para identificar conflitos, ameaças e padrões de comportamento, gerando um relatório comportamental por participante.
+**Elucya Talk** é uma plataforma que analisa conversas em áudio ou texto e identifica padrões de comunicação nociva **e** saudável por participante — gerando relatórios com Índice de Conflito, Índice de Positividade e feedback personalizado em CNV (Comunicação Não-Violenta).
+
+Diferente de ferramentas que apenas detectam toxicidade, a Elucya Talk vai além: identifica o que funciona (escuta ativa, empatia, assertividade) e o que não funciona (violência verbal, manipulação, gaslighting, preconceito velado) — com diarização individual por locutor.
+
+🌐 [English](./README.en.md) · [Español](./README.es.md)
 
 ---
 
 ## O que faz
 
-1. Você faz upload de um áudio (uma briga, uma conversa difícil, uma situação de conflito)
-2. A ferramenta transcreve o áudio e identifica quem falou o quê
-3. Você recebe um relatório com padrões de ameaça, manipulação e tom emocional de cada participante
-4. Você pode imprimir o relatório ou salvá-lo como PDF
+- Faz upload de áudio → transcrição com identificação de quem falou o quê
+- Analisa padrões nocivos: violência verbal, manipulação, discurso de ódio, preconceito contextual
+- Analisa padrões saudáveis: escuta ativa, empatia, validação emocional, assertividade
+- Gera relatório por participante com Índice de Conflito (0–100) e Índice de Positividade
+- Oferece feedback de CNV personalizado por locutor
+- Exporta relatório em PDF
+- Privacy-first: sem armazenamento de áudio após a análise
 
-Sem cadastro. Sem login. Sem armazenamento do seu áudio.
+---
+
+## Público-alvo
+
+| Segmento | Persona |
+|---|---|
+| B2C | Indivíduos em conflito relacional que buscam visão neutra |
+| B2B | Psicólogos, mediadores e profissionais de RH |
+| Marketplace (V2) | Profissionais credenciados que validam laudos com responsabilidade |
 
 ---
 
 ## Status
 
-🟡 Em planejamento — Milestone M0: Concepção e Planejamento
+| Milestone | Descrição | Status |
+|---|---|---|
+| M0 | Concepção e Planejamento | 🟡 Em progresso |
+| M1 | Design e Prototipação | ⬜ Pendente |
+| M2 | Estrutura Local e Setup Técnico | ⬜ Pendente |
+| M3 | Funcionalidades Core | ⬜ Pendente |
+| M4 | Lançamento | ⬜ Pendente |
 
 ---
 
 ## Stack planejada
 
-A ser definida na Milestone M2 — Estrutura Local e Setup Técnico.
+| Camada | Tecnologia |
+|---|---|
+| Framework | Next.js (App Router) · TypeScript |
+| Styling | Tailwind CSS |
+| Backend | Supabase (PostgreSQL · Auth · RLS) |
+| STT | Whisper API (transcrição + diarização) |
+| IA | Anthropic Claude API (análise comportamental) |
+| Infra | Vercel · GitHub Actions |
 
-Direção: aplicação web com processamento server-side via API de IA (transcrição com identificação de speakers + análise comportamental).
+---
+
+## Roadmap
+
+Veja [Roadmap.md](./Roadmap.md) para o detalhamento de cada milestone.
 
 ---
 
@@ -36,11 +68,19 @@ Direção: aplicação web com processamento server-side via API de IA (transcri
 - Esta ferramenta **não é um laudo psicológico** e não substitui acompanhamento profissional
 - O relatório gerado é uma **perspectiva analítica**, não uma verdade absoluta — a IA pode errar
 - A ferramenta **não toma partido** — analisa padrões de comportamento, não julga culpados
-- Os áudios **não são armazenados** após a análise
 - **Não é indicada** para uso como prova jurídica sem validação de um profissional habilitado
 
 ---
 
-## Roadmap
+## Contato
 
-Veja [ROADMAP.md](./ROADMAP.md) para os milestones do projeto.
+Sugestões e parcerias via site oficial da Kairos Labs:
+**[kairos-labs-lake.vercel.app/pt](https://kairos-labs-lake.vercel.app/pt)**
+
+---
+
+## Licença
+
+**Todos os direitos reservados** — Cesar Antonio Brito Pizarro / Elucya Talk
+
+Veja [LICENSE](./LICENSE) · [LICENSE.en](./LICENSE.en) · [LICENSE.es](./LICENSE.es)
